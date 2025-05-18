@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "glrs",
+  "info": {
+    "singularName": "glr",
+    "pluralName": "glrs",
+    "displayName": "glr"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "glr": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

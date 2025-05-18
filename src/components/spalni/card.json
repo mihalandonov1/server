@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_spalni_cards",
+  "info": {
+    "displayName": "card"
+  },
+  "options": {},
+  "attributes": {
+    "two": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_kuhni_galleries",
+  "info": {
+    "displayName": "Gallery",
+    "icon": "twitter"
+  },
+  "options": {},
+  "attributes": {
+    "Glr": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "card": {
+      "displayName": "card",
+      "type": "component",
+      "repeatable": false,
+      "component": "spalni.card"
+    }
+  }
+}
